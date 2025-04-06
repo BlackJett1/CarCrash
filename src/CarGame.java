@@ -84,9 +84,9 @@ public class CarGame extends JFrame implements KeyListener {
         }
 
         score++;
-        if (score % 50 == 0 && speed < 140) {
+        if (score % 50 == 0 && speed < 100) {
             speed++;
-            gameTimer.setDelay(100 - (speed - 90));
+            gameTimer.setDelay(100 - (speed - 80));
         }
     }
 
