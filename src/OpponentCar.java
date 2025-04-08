@@ -1,6 +1,6 @@
 public class OpponentCar extends Obstacle {
     private static final String[] CAR_IMAGES = {
-            "gamecar1.png", "gamecar2.png", "gamecar3.png", "gamecar4.png"
+            "gamecar1.png", "gamecar2.png", "gamecar4.png", "gamecar3.png"
     };
     private static final int[] LANES = {100, 200, 300, 400, 500};
 
