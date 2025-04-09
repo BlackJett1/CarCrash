@@ -1,6 +1,6 @@
 public class Car extends GameObject {
     private static final String[] CAR_IMAGES = {
-            "gamecar1.png", "gamecar2.png", "gamecar3.png", "gamecar4.png"
+            "gamecar1.png", "gamecar2.png", "gamecar4.png", "gamecar3.png"
     };
 
     public Car(int x, int y, int carType) {
